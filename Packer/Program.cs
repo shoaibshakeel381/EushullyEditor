@@ -2,7 +2,7 @@
 using System.IO;
 using EushullyEditor;
 
-namespace EushullyEncryptor
+namespace Packer
 {
     class Program
     {

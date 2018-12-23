@@ -2,7 +2,7 @@
 using System.IO;
 using EushullyEditor;
 
-namespace EushullyExtractor
+namespace Unpacker
 {
     class Program
     {

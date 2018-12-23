@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{41C7B9A0-63BD-4E68-9B03-49B8AD054DB0}</ProjectGuid>
+    <ProjectGuid>{0C49956F-494C-4040-9373-39AD75409AFF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EushullyEncryptor</RootNamespace>
-    <AssemblyName>EushullyEncryptor</AssemblyName>
+    <RootNamespace>Unpacker</RootNamespace>
+    <AssemblyName>Unpacker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EushullyEditor\EushullyEditor.csproj">
-      <Project>{FBCDF704-DDD5-43FE-BB18-4A058C6B4914}</Project>
+      <Project>{fbcdf704-ddd5-43fe-bb18-4a058c6b4914}</Project>
       <Name>EushullyEditor</Name>
     </ProjectReference>
   </ItemGroup>
