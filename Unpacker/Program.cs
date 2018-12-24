@@ -24,10 +24,6 @@ namespace Unpacker
                 {
                     File.WriteAllLines($"{fileInfo.FullName}.txt", strings);
                 }
-                else
-                {
-                    File.Delete(fileInfo.FullName);
-                }
             }
         }
 
